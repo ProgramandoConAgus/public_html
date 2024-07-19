@@ -1,5 +1,4 @@
 <?php
-include('validacion-datos.php');
 session_start();
 session_destroy();
 
