@@ -18,7 +18,9 @@ $numeroNet=6;
 $numeroSql=7;
 
 $numero_recibido = $_GET['numero'];
-
+if ($numero_recibido==NULL || $numero_recibido==0){
+	header('Location: panel-inicial.php?id='.$idUsuario);
+}
 ?>
 
 

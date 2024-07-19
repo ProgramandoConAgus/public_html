@@ -9,7 +9,7 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
     header("Location: index.php");
     exit;
 }
-
+$idUsuario=$_SESSION['IdUser'];
 $numeroHtml=1;
 $numeroCss=2;
 $numeroJs=3;
@@ -19,7 +19,9 @@ $numeroNet=6;
 $numeroSql=7;
 
 $numero_recibido = $_GET['numero'];
-
+if ($numero_recibido==NULL || $numero_recibido==0){
+	header('Location: panel-inicial.php?id='.$idUsuario);
+}
 ?>
 
 
@@ -818,6 +820,7 @@ $numero_recibido = $_GET['numero'];
 
 								<?php
 								}
+								
 								?>
 
                                 <?php
