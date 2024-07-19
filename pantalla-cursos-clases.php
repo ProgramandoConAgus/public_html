@@ -2747,7 +2747,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 												<?php
 												}
 												?>
-												    if ($numero_recibido == 333) {
+										<?php		    if ($numero_recibido == 333) {
 												# code...
 											
 											    ?>
