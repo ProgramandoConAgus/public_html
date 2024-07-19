@@ -1004,7 +1004,26 @@ $numero_recibido = $_GET['numero'];
 								<?php
 								}
 								?>
+				 if ($numero_recibido==333) {
+									# code...
+								
+								?>
 
+                                <div class="text-center">
+                                    <img src="./src/media/algoritmos.png" width="70px" height="70px" alt="">
+                                    </div>
+									<!--begin::Title-->
+									<h3 class="fs-2x fw-bold text-white text-center mb-10 mb-lg-13 my-3">Módulo Aplicaciones</h3>
+									<!--end::Title-->
+									<!--begin::Input group-->
+                                   
+									<!--end::Input group-->
+								</div>
+								<!--end::Container-->
+
+								<?php
+								}
+								?>
 							</div>
 							<!--end::Hero-->
 							<!--begin::Svg-->
@@ -2669,6 +2688,47 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
                                                                                                   
 <?php
 											    if ($numero_recibido == 222) {
+												# code...
+											
+											    ?>
+
+													<div class="col-md-4">
+													<!--begin::Feature post-->
+													<div class="card-xl-stretch me-md-6">
+														<!--begin::Image-->
+														<a class="d-block bgi-no-repeat bgi-size-cover bgi-position-center card-rounded position-relative min-h-175px mb-5" style="background-image:url('./src/media/Partes-de-una-aplicacion.jpg')" data-fslightbox="lightbox-video-tutorials" href="https://youtu.be/PU4W3wa_4YA">
+															<img src="assets/media/svg/misc/video-play.svg" class="position-absolute top-50 start-50 translate-middle" alt="" />
+														</a>
+														<!--end::Image-->
+														<!--begin::Body-->
+														<div class="m-0">
+															<!--begin::Title-->
+															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Partes de una aplicación - Explicación Conceptual</a>
+															<!--end::Title-->
+															<!--begin::Text-->
+															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4">Aprenderás las partes principales de una aplicación: el front-end, el back-end y la base de datos, y cómo interactúan para crear una aplicación funcional.</div>
+															<!--end::Text-->
+															<!--begin::Content-->
+															<div class="fs-6 fw-bold">
+																<!--begin::Author-->
+																<a href="pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
+																<!--end::Author-->
+																<!--begin::Date-->
+																<span class="text-muted">Subido 17/07/24</span>
+																<!--end::Date-->
+															</div>
+															<!--end::Content-->
+														</div>
+														<!--end::Body-->
+													</div>
+													<!--end::Feature post-->
+												</div>
+												<!--end::Col-->
+
+												<?php
+												}
+												?>
+												    if ($numero_recibido == 333) {
 												# code...
 											
 											    ?>
