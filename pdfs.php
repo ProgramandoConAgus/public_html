@@ -9,6 +9,7 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
     header("Location: index.php");
     exit;
 }
+$idUsuario=$_SESSION['IdUser'];
 $numeroHtml=1;
 $numeroCss=2;
 $numeroJs=3;
