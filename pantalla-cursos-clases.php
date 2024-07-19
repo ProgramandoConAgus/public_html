@@ -1023,7 +1023,7 @@ $numero_recibido = $_GET['numero'];
 								<?php
 								}
 								?>
-				 if ($numero_recibido==333) {
+			<?php	 if ($numero_recibido==333) {
 									# code...
 								
 								?>
