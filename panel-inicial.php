@@ -102,9 +102,9 @@ if ($datosUsuario) {
 							<!--end::Heaeder menu toggle-->
 							<!--begin::Header Logo-->
 							<div class="header-logo me-5 me-md-10 flex-grow-1 flex-lg-grow-0">
-								<a href="index.php">
-									<img alt="Logo" src="./src/media/blancoPCA.png" class="logo-default h-25px" />
-									<img alt="Logo" src="./src/media/verdePCA.png" class="logo-sticky h-25px" />
+								<a href="panel-inicial.php?id=<?=$_SESSION['IdUser']?>">
+									<img alt="Logo" src="./src/media/blancoPCA.png" class="logo-default w-100px h-30px" />
+									<img alt="Logo" src="./src/media/verdePCA.png" class="logo-sticky w-100px h-30px" />
 								</a>
 							</div>
 							<!--end::Header Logo-->

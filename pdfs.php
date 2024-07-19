@@ -1291,7 +1291,7 @@ License: For each use you must have a valid license purchased only from above li
 										<!--begin::Card body-->
 										<div class="card-body d-flex justify-content-center text-center flex-column p-8">
 											<!--begin::Name-->
-											<a href="./materiales/observables-en-angular (1).pdf" download="observables-en-angular.pdf" class="text-gray-800 text-hover-primary d-flex flex-column">
+											<a href="./materiales/observables-en-angular.pdf" download="observables-en-angular.pdf" class="text-gray-800 text-hover-primary d-flex flex-column">
 												<!--begin::Image-->
 												<div class="symbol symbol-60px mb-5">
 													<img src="assets/media/svg/files/pdf.svg" class="theme-light-show" alt="">
@@ -1303,8 +1303,11 @@ License: For each use you must have a valid license purchased only from above li
 												<!--end::Title-->
 											</a>
 											<!--end::Name-->
-											<!--begin::Description-->
+											<!--begin::Description
 											<div class="fs-7 fw-semibold text-gray-500">Pdf descargable</div>
+											end::Description-->
+											<!--begin::Description-->
+											<div class="fs-7 fw-semibold text-gray-500">Proximamente</div>
 											<!--end::Description-->
 										</div>
 										<!--end::Card body-->
@@ -1347,8 +1350,11 @@ License: For each use you must have a valid license purchased only from above li
 												<!--end::Title-->
 											</a>
 											<!--end::Name-->
-											<!--begin::Description-->
+											<!--begin::Description
 											<div class="fs-7 fw-semibold text-gray-500">Pdf descargable</div>
+											end::Description-->
+											<!--begin::Description-->
+											<div class="fs-7 fw-semibold text-gray-500">Proximamente</div>
 											<!--end::Description-->
 										</div>
 										<!--end::Card body-->
@@ -1405,7 +1411,7 @@ License: For each use you must have a valid license purchased only from above li
 										<!--begin::Card body-->
 										<div class="card-body d-flex justify-content-center text-center flex-column p-8">
 											<!--begin::Name-->
-											<a href="./materiales/curso-de-sql-server.pdf" download="curso-de-sqlserver.pdf" class="text-gray-800 text-hover-primary d-flex flex-column">
+											<a href="./materiales/curso-de-sql-server.pdf" download="curso-de-sql-server.pdf" class="text-gray-800 text-hover-primary d-flex flex-column">
 												<!--begin::Image-->
 												<div class="symbol symbol-60px mb-5">
 													<img src="assets/media/svg/files/pdf.svg" class="theme-light-show" alt="">

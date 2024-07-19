@@ -119,6 +119,11 @@ session_destroy();
 									</button>
 								</div>
 								<!--end::Submit button-->
+								<!--begin::Forgot Password-->
+                                    <div class="text-center">
+                                        <a href="forgot_password.php" class="text-gray-500 fw-semibold fs-6">¿Olvidaste tu contraseña?</a>
+                                    </div>
+                                 <!--end::Forgot Password-->
 							</form>
 							<!--end::Form-->
 						</div>

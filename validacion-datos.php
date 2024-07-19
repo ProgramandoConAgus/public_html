@@ -1,53 +1,49 @@
 <?php
-
 include('con_db.php');
 
-if (isset($_POST['nombre'])) {
+if (isset($_POST['nombre']) && isset($_POST['apellido']) && isset($_POST['email']) && isset($_POST['password'])) {
     $nombre = $_POST['nombre'];
     $apellido = $_POST['apellido'];
     $email = $_POST['email'];
     $password = $_POST['password'];
 
-    $sql = "SELECT * FROM usuarios";
-    $result = $conex->query($sql);
+    // Consultar la base de datos para obtener el registro del usuario
+    $sql = "SELECT * FROM usuarios WHERE email = ?";
+    $stmt = $conex->prepare($sql);
+    $stmt->bind_param('s', $email);
+    $stmt->execute();
+    $result = $stmt->get_result();
 
     if ($result) {
-        echo "Consulta ejecutada correctamente<br>";
+        if ($result->num_rows > 0) {
+            $user = $result->fetch_assoc();
+
+            // Verificar que el nombre y apellido coincidan
+            if ($user['nombre'] == $nombre && $user['apellido'] == $apellido) {
+                // Verificar la contraseña
+                if (password_verify($password, $user['password'])) {
+                    session_start();
+                    $_SESSION['loggedin'] = true;
+                    $_SESSION['IdUser'] = $user['idUsuario']; // Asegúrate de que el nombre de la columna de ID sea correcto
+                    header('Location: panel-inicial.php?id=' . $user['idUsuario']);
+                    exit();
+                } else {
+                    echo "Contraseña incorrecta.";
+                }
+            } else {
+                echo "Nombre o apellido incorrecto.";
+            }
+        } else {
+            echo "Usuario no encontrado.";
+            header('Location: usuario-no-encontrado.php');
+            exit();
+        }
     } else {
         echo "Error en la consulta: " . $conex->error . "<br>";
     }
 
-    $filas = array();
-
-    if ($result->num_rows > 0) {
-        while ($row = $result->fetch_assoc()) {
-            $filas[] = $row;
-        }
-    } else {
-        echo "0 resultados<br>";
-    }
-
-    $mensajeDevolucion = "No funcionó";
-    for ($i = 0; $i < count($filas); $i++) {
-        if ($filas[$i]['email'] == $email && $filas[$i]['nombre'] == $nombre) {
-            if ($password == $filas[$i]['password']) {
-                $mensajeDevolucion = "Se ingresó correctamente";
-                $userId = $filas[$i]['idUsuario'];  // Asumiendo que 'id' es el nombre de la columna del ID del usuario en la base de datos
-                session_start();
-                $_SESSION['loggedin'] = true;
-                $_SESSION['IdUser']=$filas[$i]['idUsuario'];
-                header('Location: panel-inicial.php?id=' . $userId);
-                exit(); // Asegúrate de llamar a exit() después de redirigir para detener la ejecución del script
-            }
-        }else{
-            header('Location: usuario-no-encontrado.php');
-        }
-    }
-
-    // Si llega aquí, las credenciales no coinciden
-    echo $mensajeDevolucion;
+    $stmt->close();
 } else {
-    echo "";
+    echo "Todos los campos son requeridos.";
 }
 ?>
-
