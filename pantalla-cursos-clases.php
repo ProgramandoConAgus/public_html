@@ -2756,17 +2756,17 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 													<!--begin::Feature post-->
 													<div class="card-xl-stretch me-md-6">
 														<!--begin::Image-->
-														<a class="d-block bgi-no-repeat bgi-size-cover bgi-position-center card-rounded position-relative min-h-175px mb-5" style="background-image:url('./src/media/Partes-de-una-aplicacion.jpg')" data-fslightbox="lightbox-video-tutorials" href="https://youtu.be/PU4W3wa_4YA">
+														<a class="d-block bgi-no-repeat bgi-size-cover bgi-position-center card-rounded position-relative min-h-175px mb-5" style="background-image:url('./src/media/servidorVideo.jpg')" data-fslightbox="lightbox-video-tutorials" href="https://youtu.be/ZVu_XVW8zmU">
 															<img src="assets/media/svg/misc/video-play.svg" class="position-absolute top-50 start-50 translate-middle" alt="" />
 														</a>
 														<!--end::Image-->
 														<!--begin::Body-->
 														<div class="m-0">
 															<!--begin::Title-->
-															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Partes de una aplicación - Explicación Conceptual</a>
+															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Servidores Primera clase Códigos de Respuesta</a>
 															<!--end::Title-->
 															<!--begin::Text-->
-															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4">Aprenderás las partes principales de una aplicación: el front-end, el back-end y la base de datos, y cómo interactúan para crear una aplicación funcional.</div>
+															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4">Aprenderás sobre los codigos de respuestas para indicar el estado de peticiones realizadas por el usuario</div>
 															<!--end::Text-->
 															<!--begin::Content-->
 															<div class="fs-6 fw-bold">
