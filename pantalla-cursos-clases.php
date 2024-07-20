@@ -375,7 +375,7 @@ if ($numero_recibido==NULL || $numero_recibido==0){
 																			<!--begin:Menu link-->
 																			<a href="pantalla-cursos-clases.php?numero=<?=333?>" class="menu-link">
 																				<span class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
-																					<img src="./src/media/servidores.png" height="40px" width="40px" alt="">
+																					<img src="./src/media/servidor-nube.png" height="40px" width="40px" alt="">
 																				</span>
 																				<span class="d-flex flex-column">
 																					<span class="fs-6 fw-bold text-gray-800">Servidores</span>
@@ -820,7 +820,6 @@ if ($numero_recibido==NULL || $numero_recibido==0){
 
 								<?php
 								}
-								
 								?>
 
                                 <?php
@@ -1032,7 +1031,7 @@ if ($numero_recibido==NULL || $numero_recibido==0){
 								?>
 
                                 <div class="text-center">
-                                    <img src="./src/media/servidores.png" width="70px" height="70px" alt="">
+                                    <img src="./src/media/servidor-nube.png" width="70px" height="70px" alt="">
                                     </div>
 									<!--begin::Title-->
 									<h3 class="fs-2x fw-bold text-white text-center mb-10 mb-lg-13 my-3">Módulo Servidores</h3>
