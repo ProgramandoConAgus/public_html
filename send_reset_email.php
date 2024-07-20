@@ -18,6 +18,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($resultReset->num_rows > 0) {
             // Si el email ya está, actualizar el token
             $conex->query("UPDATE password_resets SET token='$token' WHERE email='$email'");
+            $date = new DateTime();
+            $date= $date->format('Y-m-d H:i:s');
+            $conex->query("UPDATE password_resets SET created_at='$date' WHERE email='$email'" );
         } else {
             // Si el email no está, insertar un nuevo registro
             $conex->query("INSERT INTO password_resets (email, token) VALUES ('$email', '$token')");
