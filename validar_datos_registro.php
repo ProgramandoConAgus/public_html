@@ -25,7 +25,7 @@ if (isset($_POST['nombre']) && isset($_POST['apellido']) && isset($_POST['email'
                 $stmt_insert = $conex->prepare($sql_insert);
                 $idTipoUsuario = 1;
 				$idsuscripcion=0;
-                $stmt_insert->bind_param('ssssi', $nombre, $apellido, $email, $hashed_password, $idTipoUsuario,$idsuscripcion);
+                $stmt_insert->bind_param('ssssii', $nombre, $apellido, $email, $hashed_password, $idTipoUsuario,$idsuscripcion);
 
                 if ($stmt_insert->execute()) {
                     header('Location: index.php');
