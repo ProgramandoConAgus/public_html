@@ -66,11 +66,11 @@ session_destroy();
 					<!--begin::Wrapper-->
 						<div class="d-flex flex-center flex-column flex-column-fluid px-lg-10 pb-15 pb-lg-20">
 							<!--begin::Form-->
-							<form class="form w-100" action="validacion-datos.php" method="POST">
+							<form class="form w-100" action="validar_datos_registro.php" method="POST">
 								<!--begin::Heading-->
 								<div class="text-center mb-11">
 									<!--begin::Title-->
-									<h1 class="text-gray-900 fw-bolder mb-3">Ingresar</h1>
+									<h1 class="text-gray-900 fw-bolder mb-3">Crea tu cuenta</h1>
 									<!--end::Title-->
 									<!--begin::Subtitle-->
 									<div class="text-gray-500 fw-semibold fs-6">Aprende programación en un solo lugar</div>
@@ -79,7 +79,7 @@ session_destroy();
 								<!--begin::Heading-->
 								<!--begin::Separator-->
 								<div class="separator separator-content my-14">
-									<span class="w-125px text-gray-500 fw-semibold fs-7">Ingresa como alumno</span>
+									<span class="w-125px text-gray-500 fw-semibold fs-7">Registarse</span>
 								</div>
 								<!--end::Separator-->
 								<!--begin::Input group=-->
@@ -103,9 +103,16 @@ session_destroy();
 									<!--end::Email-->
 								</div>
 								<!--end::Input group=-->
-								<div class="fv-row mb-3">
+								<div class="fv-row mb-8">
 									<!--begin::Password-->
 									<input type="password" placeholder="Contraseña" name="password" autocomplete="off" class="form-control bg-transparent" />
+									<!--end::Password-->
+								</div>
+								<!--end::Input group=-->
+                                <!--end::Input group=-->
+								<div class="fv-row mb-3">
+									<!--begin::Password-->
+									<input type="password" placeholder="Confirmar Contraseña" name="confirmPassword" autocomplete="off" class="form-control bg-transparent" />
 									<!--end::Password-->
 								</div>
 								<!--end::Input group=-->
@@ -113,23 +120,10 @@ session_destroy();
 								<div class="d-grid mb-10">
 									<button type="submit" class="btn btn-primary">
 										<!--begin::Indicator label-->
-										<span class="indicator-label">Entrar</span>
+										<span class="indicator-label">Registrar</span>
 									</button>
 								</div>
 								<!--end::Submit button-->
-								<!--begin::Register-->
-                                    <div class="text-center">
-                                        <p class="text-gray-500 fw-semibold fs-6"> ¿No tienes cuenta?
-										<a href="register.php"> ¡Registrate!</a>
-										</p>
-										
-                                    </div>
-                                 <!--end::Register-->
-								<!--begin::Forgot Password-->
-                                    <div class="text-center">
-                                        <a href="forgot_password.php" class="text-gray-500 fw-semibold fs-6">¿Olvidaste tu contraseña?</a>
-                                    </div>
-                                 <!--end::Forgot Password-->
 							</form>
 							<!--end::Form-->
 						</div>

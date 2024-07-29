@@ -1,12 +1,13 @@
 <?php
 include('con_db.php');
-
+$message='';
 if (isset($_POST['nombre']) && isset($_POST['apellido']) && isset($_POST['email']) && isset($_POST['password'])) {
     $nombre = $_POST['nombre'];
     $apellido = $_POST['apellido'];
     $email = $_POST['email'];
     $password = $_POST['password'];
-
+	$confirmPassword = $_POST['confirmPassword'];
+	
     // Consultar la base de datos para obtener el registro del usuario
     $sql = "SELECT * FROM usuarios WHERE email = ?";
     $stmt = $conex->prepare($sql);
@@ -16,33 +17,29 @@ if (isset($_POST['nombre']) && isset($_POST['apellido']) && isset($_POST['email'
 
     if ($result) {
         if ($result->num_rows > 0) {
-            $user = $result->fetch_assoc();
-			
-			if($user['idSuscripcion']==1){
-            	// Verificar que el nombre y apellido coincidan
-            	if ($user['nombre'] == $nombre && $user['apellido'] == $apellido) {
-                	// Verificar la contraseña
-                	if (password_verify($password, $user['password'])) {
-                    	session_start();
-                    	$_SESSION['loggedin'] = true;
-                    	$_SESSION['IdUser'] = $user['idUsuario']; // Asegúrate de que el nombre de la columna de ID sea correcto
-                    	header('Location: panel-inicial.php?id=' . $user['idUsuario']);
-                    	exit();
-                	} else {
-                    $message= "Contraseña incorrecta.";
-                }
-            	} else {
-                	$message= "Nombre o apellido incorrecto.";
-            	}
-			}
-			else{
-				header('Location: usuario-no-encontrado.php');
-            	exit();
-			}
+            $message="Ya existe una cuenta con este mail.";
         } else {
-            $message= "Usuario no encontrado.";
-            header('Location: usuario-no-encontrado.php');
-            exit();
+            if($password===$confirmPassword){
+				$hashed_password = password_hash($password, PASSWORD_DEFAULT);
+                $sql_insert = "INSERT INTO usuarios (nombre, apellido, email, password, IdTipoUsuario, idSuscripcion) VALUES (?, ?, ?, ?, ?,?)";
+                $stmt_insert = $conex->prepare($sql_insert);
+                $idTipoUsuario = 1;
+				$idsuscripcion=0;
+                $stmt_insert->bind_param('ssssi', $nombre, $apellido, $email, $hashed_password, $idTipoUsuario,$idsuscripcion);
+
+                if ($stmt_insert->execute()) {
+                    header('Location: index.php');
+                    exit();
+                } else {
+                    $message = "Error al crear el usuario: " . $stmt_insert->error;
+                }
+
+            }
+			else{
+				$message="Las contraseñas deben ser iguales";
+			}
+
+
         }
     } else {
         $message="Error en la consulta: " . $conex->error . "<br>";
@@ -52,7 +49,9 @@ if (isset($_POST['nombre']) && isset($_POST['apellido']) && isset($_POST['email'
 } else {
     echo "Todos los campos son requeridos.";
 }
+
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 	<!--begin::Head-->
@@ -101,7 +100,7 @@ if (isset($_POST['nombre']) && isset($_POST['apellido']) && isset($_POST['email'
 							<!--begin::Logo-->
 							<div class="mb-7">
 								<a href="./index.php" class="">
-									<img alt="Logo" src="./src/media/verdePCA.png" class="h-40px" />
+									<img alt="Logo" src="src/media/verdePCA.png" class="h-40px" />
 								</a>
 							</div>
 							<!--end::Logo-->
@@ -119,7 +118,7 @@ if (isset($_POST['nombre']) && isset($_POST['apellido']) && isset($_POST['email'
 							<!--end::Illustration-->
 							<!--begin::Link-->
 							<div class="mb-0">
-								<a href="./index.php" class="btn btn-sm btn-primary">Volver</a>
+								<a href="index.php" class="btn btn-sm btn-primary">Volver</a>
 							</div>
 							<!--end::Link-->
 						</div>
