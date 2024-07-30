@@ -1,15 +1,20 @@
 <?php 
 
+include ('con_db.php');
 session_start();
 if (session_status() == PHP_SESSION_NONE) {
 	header("Location: index.php");	
 }
-if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {		
-} else {
-    header("Location: index.php");
-    exit;
-}
 $idUsuario=$_SESSION['IdUser'];
+$stmt = $conex->prepare("SELECT email FROM usuarios WHERE idUsuario=? AND last_time_connected > NOW() - INTERVAL 2 HOUR");
+$stmt->bind_param("i", $idUsuario);
+$stmt->execute();
+$result = $stmt->get_result();
+if (isset($_SESSION['loggedin'])&&isset($_SESSION['IdUser']) && $_SESSION['loggedin'] === true && $result->num_rows > 0) {		
+} else {
+   	header("Location: index.php");
+   	exit;
+}
 $numeroHtml=1;
 $numeroCss=2;
 $numeroJs=3;

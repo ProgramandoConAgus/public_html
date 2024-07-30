@@ -26,6 +26,10 @@ if (isset($_POST['nombre']) && isset($_POST['apellido']) && isset($_POST['email'
                     	session_start();
                     	$_SESSION['loggedin'] = true;
                     	$_SESSION['IdUser'] = $user['idUsuario']; // Asegúrate de que el nombre de la columna de ID sea correcto
+						$date = new DateTime();
+            			$date= $date->format('Y-m-d H:i:s');
+						$userId=$user['idUsuario'];
+            			$conex->query("UPDATE usuarios SET last-time-connected='$date' WHERE idUsuario='$userId'" );
                     	header('Location: panel-inicial.php?id=' . $user['idUsuario']);
                     	exit();
                 	} else {
