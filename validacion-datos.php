@@ -29,7 +29,7 @@ if (isset($_POST['nombre']) && isset($_POST['apellido']) && isset($_POST['email'
 						$date = new DateTime();
             			$date= $date->format('Y-m-d H:i:s');
 						$userId=$user['idUsuario'];
-            			$conex->query("UPDATE usuarios SET last-time-connected='$date' WHERE idUsuario='$userId'" );
+            			$conex->query("UPDATE usuarios SET last_time_connected='$date' WHERE idUsuario='$userId'" );
                     	header('Location: panel-inicial.php?id=' . $user['idUsuario']);
                     	exit();
                 	} else {

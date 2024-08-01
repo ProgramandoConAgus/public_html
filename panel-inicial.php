@@ -712,11 +712,7 @@ if ($datosUsuario) {
 													<!--begin::Username-->
 													<div class="d-flex flex-column">
 														<div class="fw-bold d-flex align-items-center fs-5"> <?=$_SESSION['nombre']?> <?=$_SESSION['apellido']?> <br>
-													
-														
-                                                       
 															<span class="badge badge-light-warning fw-bold fs-8 px-2 py-1 ms-2">Acceso Total</span>
-													
 														</div>
 													</div>
 													<!--end::Username-->
@@ -726,7 +722,14 @@ if ($datosUsuario) {
 											<!--begin::Menu separator-->
 											<div class="separator my-2"></div>
 											<!--end::Menu separator-->
-											
+											<?php if($_SESSION['IdTipoUsuario']==2 || $_SESSION['IdTipoUsuario']==3){
+												?>
+											<div class="menu-item px-5">
+												<a href="options.php" class="menu-link px-5" >Opciones</a>
+											</div>
+											<?php
+										}
+										?>
 											<!--begin::Menu item-->
 											<div class="menu-item px-5">
 												<a href="change-password.php" class="menu-link px-5" >Cambiar contraseña</a>
