@@ -749,9 +749,12 @@ $idUsuario = $_SESSION['IdUser']; // Ajusta según cómo obtienes el ID desde la
 							</div>
 							<!--end::Page title-->
 							<!--begin::Page title-->
+							<?php
+								if($_SESSION['notificacion']!=null){
+							?>
 							<div class="page-title d-flex flex-column me-3">
 								<!--begin::Title-->
-								<h1 class="d-flex text-white fw-bold my-1 fs-3" style="background-color: #28a745; color: white;"><?=$_SESSION['notificacion']?></h1>
+								<h1 class="d-flex text-white fw-bold my-1 p-5 ps-10 pe-10 fs-3" style="background-color: #28a745; color: white;"><?=$_SESSION['notificacion']?></h1>
 								<!--end::Title-->
 								
 							</div>
@@ -760,6 +763,9 @@ $idUsuario = $_SESSION['IdUser']; // Ajusta según cómo obtienes el ID desde la
 							<div class="page-title d-flex flex-column me-3"> 
 							</div>
 							<!--end::Page title-->
+							<?php
+								}
+							?>
 						</div>
 						<!--end::Container-->
 					</div>

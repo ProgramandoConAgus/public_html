@@ -33,7 +33,7 @@ $usuario = new Usuario($conex);
 
 // Obtén los datos del usuario por su ID
 $datosUsuario = $usuario->obtenerUsuarioPorId((int)$idUsuario);
-
+$_SESSION['notificacion']=null;
 
 if ($datosUsuario) {
 	// Asignar cada campo a una variable de sesión
