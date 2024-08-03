@@ -704,7 +704,8 @@ $idUsuario = $_SESSION['IdUser']; // Ajusta según cómo obtienes el ID desde la
 											<!--begin::Menu separator-->
 											<div class="separator my-2"></div>
 											<!--end::Menu separator-->
-											<?php if($_SESSION['IdTipoUsuario']==2 || $_SESSION['IdTipoUsuario']==3){
+											<?php 
+											if($_SESSION['IdTipoUsuario']==2 || $_SESSION['IdTipoUsuario']==3){
 												?>
 											<div class="menu-item px-5">
 												<a href="options.php" class="menu-link px-5" >Opciones</a>
@@ -752,17 +753,25 @@ $idUsuario = $_SESSION['IdUser']; // Ajusta según cómo obtienes el ID desde la
 							<?php
 								if($_SESSION['notificacion']!=null){
 							?>
-							<div class="page-title d-flex flex-column me-3">
-								<!--begin::Title-->
-								<h1 class="d-flex text-white fw-bold my-1 p-5 ps-10 pe-10 fs-3" style="background-color: #28a745; color: white;"><?=$_SESSION['notificacion']?></h1>
-								<!--end::Title-->
-								
+							<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  							<div class="modal-dialog">
+    							<div class="modal-content">
+      							<div class="modal-header">
+        							<h1 class="modal-title fs-5" id="staticBackdropLabel">Actualizacion</h1>
+        							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      							</div>
+      							<div class="modal-body">
+								  	<?=$_SESSION['notificacion']?>
+      							</div>
+    							</div>
+  							</div>
 							</div>
-							<!--end::Page title-->
-							<!--begin::Page title-->
-							<div class="page-title d-flex flex-column me-3"> 
-							</div>
-							<!--end::Page title-->
+							<script>
+        						document.addEventListener('DOMContentLoaded', function() {
+            						var myModal = new bootstrap.Modal(document.getElementById('staticBackdrop'));
+            						myModal.show();
+        						});
+    							</script>
 							<?php
 								}
 							?>
