@@ -7,7 +7,7 @@ session_destroy();
 <html lang="en">
 	<!--begin::Head-->
 	<head>
-<base href="../../../" />
+<base href="./" />
 <title>PCA - SOFTWARE</title>
 		<meta charset="utf-8" />
 		<meta name="description" content="Sistema exclusivo para alumnos de ProgramandoConAgus" />

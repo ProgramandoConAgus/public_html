@@ -55,7 +55,7 @@ if ($datosUsuario) {
 <html lang="en">
 	<!--begin::Head-->
 	<head>
-<base href="../../../" />
+<base href="./" />
 		<title>PCA - SOFTWARE</title>
 		<meta charset="utf-8" />
 		<meta name="description" content="Sistema exclusivo para alumnos de ProgramandoConAgus" />
@@ -146,7 +146,7 @@ if ($datosUsuario) {
 																			<!--begin:Menu link-->
 																			<a href="pantalla-cursos-clases.php?numero=<?=$numeroHtml?>" class="menu-link">
 																				<span class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
-																					<img src="../src/media/html.png" width="40px" height="40px" alt="">
+																					<img src="./src/media/html.png" width="40px" height="40px" alt="">
 																				</span>
 																				<span class="d-flex flex-column">
 																					<span class="fs-6 fw-bold text-gray-800">HTML</span>
@@ -165,7 +165,7 @@ if ($datosUsuario) {
 																			<!--begin:Menu link-->
 																			<a href="pantalla-cursos-clases.php?numero=<?=$numeroCss?>"class="menu-link">
 																				<span class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
-																					<img src="../src/media/css.png" height="40px" width="40px" alt="">
+																					<img src="./src/media/css.png" height="40px" width="40px" alt="">
 																				</span>
 																				<span class="d-flex flex-column">
 																					<span class="fs-6 fw-bold text-gray-800">CSS</span>
@@ -184,7 +184,7 @@ if ($datosUsuario) {
 																			<!--begin:Menu link-->
 																			<a href="pantalla-cursos-clases.php?numero=<?=$numeroJs?>" class="menu-link">
 																				<span class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
-																					<img src="../src/media/js.png" height="40px" width="40px" alt="">
+																					<img src="./src/media/js.png" height="40px" width="40px" alt="">
 																				</span>
 																				<span class="d-flex flex-column">
 																					<span class="fs-6 fw-bold text-gray-800">Javascript</span>
@@ -203,7 +203,7 @@ if ($datosUsuario) {
 																			<!--begin:Menu link-->
 																			<a href="pantalla-cursos-clases.php?numero=<?=$numeroTs?>" class="menu-link">
 																				<span class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
-																					<img src="../src/media/Typescript.png" height="40px" width="40px" alt="">
+																					<img src="./src/media/Typescript.png" height="40px" width="40px" alt="">
 																				</span>
 																				<span class="d-flex flex-column">
 																					<span class="fs-6 fw-bold text-gray-800">Typescript</span>
@@ -222,7 +222,7 @@ if ($datosUsuario) {
 																			<!--begin:Menu link-->
 																			<a href="pantalla-cursos-clases.php?numero=<?=$numeroAngular?>" class="menu-link">
 																				<span class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
-																					<img src="../src/media/Angular.png" height="40px" width="40px" alt="">
+																					<img src="./src/media/Angular.png" height="40px" width="40px" alt="">
 																				</span>
 																				<span class="d-flex flex-column">
 																					<span class="fs-6 fw-bold text-gray-800">Angular</span>
@@ -282,7 +282,7 @@ if ($datosUsuario) {
 																			<!--begin:Menu link-->
 																			<a href="pantalla-cursos-clases.php?numero=<?=$numeroNet?>" class="menu-link">
 																				<span class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
-																					<img src="../src/media/R.png" height="40px" width="40px" alt="">
+																					<img src="./src/media/R.png" height="40px" width="40px" alt="">
 																				</span>
 																				<span class="d-flex flex-column">
 																					<span class="fs-6 fw-bold text-gray-800">.NET</span>
@@ -301,7 +301,7 @@ if ($datosUsuario) {
 																			<!--begin:Menu link-->
 																			<a href="pantalla-cursos-clases.php?numero=<?=$numeroSql?>" class="menu-link">
 																				<span class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
-																					<img src="../src/media/sql.png" height="40px" width="40px" alt="">
+																					<img src="./src/media/sql.png" height="40px" width="40px" alt="">
 																				</span>
 																				<span class="d-flex flex-column">
 																					<span class="fs-6 fw-bold text-gray-800">Sql Server</span>
@@ -452,7 +452,7 @@ if ($datosUsuario) {
 																			<!--begin:Menu link-->
 																			<a href="pantalla-cursos-clases.php?numero=<?=100?>" class="menu-link">
 																				<span class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
-																					<img src="../src/media/editorcodigo.jpg" height="40px" width="40px" alt="">
+																					<img src="./src/media/editorcodigo.jpg" height="40px" width="40px" alt="">
 																				</span>
 																				<span class="d-flex flex-column">
 																					<span class="fs-6 fw-bold text-gray-800">Editor en Linea</span>
@@ -595,7 +595,7 @@ if ($datosUsuario) {
 												<!--begin:Item-->
 												<div class="col-6">
 													<a href="pantalla-cursos-clases.php?numero=<?=$numeroHtml?>" class="d-flex flex-column flex-center h-100 p-6 bg-hover-light border-end border-bottom">
-													<img alt="Logo" src="../src/media/html.png" class="logo-sticky h-25px" />
+													<img alt="Logo" src="./src/media/html.png" class="logo-sticky h-25px" />
 														<span class="fs-5 fw-semibold text-gray-800 mb-0">HTML</span>
 													</a>
 												</div>
@@ -603,7 +603,7 @@ if ($datosUsuario) {
 												<!--begin:Item-->
 												<div class="col-6">
 													<a href="pantalla-cursos-clases.php?numero=<?=$numeroCss?>" class="d-flex flex-column flex-center h-100 p-6 bg-hover-light border-bottom">
-													    <img alt="Logo" src="../src/media/css.png" class="logo-sticky h-25px" />
+													    <img alt="Logo" src="./src/media/css.png" class="logo-sticky h-25px" />
 													    <span class="fs-5 fw-semibold text-gray-800 mb-0">CSS</span>
 													</a>
 												</div>
@@ -611,7 +611,7 @@ if ($datosUsuario) {
 												<!--begin:Item-->
 												<div class="col-6">
 													<a href="pantalla-cursos-clases.php?numero=<?=$numeroJs?>" class="d-flex flex-column flex-center h-100 p-6 bg-hover-light border-end">
-													    <img alt="Logo" src="../src/media/js.png" class="logo-sticky h-25px" />
+													    <img alt="Logo" src="./src/media/js.png" class="logo-sticky h-25px" />
 													    <span class="fs-5 fw-semibold text-gray-800 mb-0">JS</span>
 													</a>
 												</div>
@@ -619,7 +619,7 @@ if ($datosUsuario) {
 												<!--begin:Item-->
 												<div class="col-6">
 													<a href="pantalla-cursos-clases.php?numero=<?=$numeroTs?>" class="d-flex flex-column flex-center h-100 p-6 bg-hover-light">
-													    <img alt="Logo" src="../src/media/Typescript.png" class="logo-sticky h-25px" />
+													    <img alt="Logo" src="./src/media/Typescript.png" class="logo-sticky h-25px" />
 													    <span class="fs-5 fw-semibold text-gray-800 mb-0">TS</span>
 													</a>
 												</div>
@@ -697,7 +697,7 @@ if ($datosUsuario) {
 									<div class="d-flex align-items-center me-lg-n2 ms-1 ms-lg-3" id="kt_header_user_menu_toggle">
 										<!--begin::Menu wrapper-->
 										<div class="btn btn-icon btn-active-light-primary btn-custom w-30px h-30px w-md-40px h-md-40px" data-kt-menu-trigger="click" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">
-											<img class="h-30px w-30px rounded" src="../src/media/corona.png" alt="" />
+											<img class="h-30px w-30px rounded" src="./src/media/corona.png" alt="" />
 										</div>
 										<!--begin::User account menu-->
 										<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg menu-state-color fw-semibold py-4 fs-6 w-275px" data-kt-menu="true">
@@ -706,7 +706,7 @@ if ($datosUsuario) {
 												<div class="menu-content d-flex align-items-center px-3">
 													<!--begin::Avatar-->
 													<div class="symbol symbol-50px me-5">
-														<img alt="Logo" src="../src/media/corona.png" />
+														<img alt="Logo" src="./src/media/corona.png" />
 													</div>
 													<!--end::Avatar-->
 													<!--begin::Username-->
@@ -857,7 +857,7 @@ if ($datosUsuario) {
 															<div class="d-flex align-items-center mb-9">
 																<!--begin::Symbol-->
 																<div class="symbol symbol-70px symbol-circle me-5">
-																<img src="../src/media/html.png" width="40px" height="40px" alt="">
+																<img src="./src/media/html.png" width="40px" height="40px" alt="">
 																</div>
 																<!--end::Symbol-->
 																<!--begin::Info-->
@@ -1003,7 +1003,7 @@ if ($datosUsuario) {
 															<div class="d-flex align-items-center mb-9">
 																<!--begin::Symbol-->
 																<div class="symbol symbol-70px symbol-circle me-5">
-																<img src="../src/media/js.png" width="40px" height="40px" alt="">
+																<img src="./src/media/js.png" width="40px" height="40px" alt="">
 																</div>
 																<!--end::Symbol-->
 																<!--begin::Info-->
@@ -1076,7 +1076,7 @@ if ($datosUsuario) {
 															<div class="d-flex align-items-center mb-9">
 																<!--begin::Symbol-->
 																<div class="symbol symbol-70px symbol-circle me-5">
-																<img src="../src/media/Typescript.png" width="40px" height="40px" alt="">
+																<img src="./src/media/Typescript.png" width="40px" height="40px" alt="">
 																</div>
 																<!--end::Symbol-->
 																<!--begin::Info-->
@@ -1149,7 +1149,7 @@ if ($datosUsuario) {
 															<div class="d-flex align-items-center mb-9">
 																<!--begin::Symbol-->
 																<div class="symbol symbol-70px symbol-circle me-5">
-																<img src="../src/media/Angular.png" width="40px" height="40px" alt="">
+																<img src="./src/media/Angular.png" width="40px" height="40px" alt="">
 																</div>
 																<!--end::Symbol-->
 																<!--begin::Info-->
@@ -1259,7 +1259,7 @@ if ($datosUsuario) {
 															<div class="d-flex align-items-center mb-9">
 																<!--begin::Symbol-->
 																<div class="symbol symbol-70px symbol-circle me-5">
-																<img src="../src/media/R (2).png" width="40px" height="40px" alt="">
+																<img src="./src/media/R (2).png" width="40px" height="40px" alt="">
 																</div>
 																<!--end::Symbol-->
 																<!--begin::Info-->
@@ -1331,7 +1331,7 @@ if ($datosUsuario) {
 															<div class="d-flex align-items-center mb-9">
 																<!--begin::Symbol-->
 																<div class="symbol symbol-70px symbol-circle me-5">
-																<img src="../src/media/sql.png" width="40px" height="40px" alt="">
+																<img src="./src/media/sql.png" width="40px" height="40px" alt="">
 																</div>
 																<!--end::Symbol-->
 																<!--begin::Info-->
@@ -1440,7 +1440,7 @@ if ($datosUsuario) {
 															<div class="d-flex align-items-center mb-9">
 																<!--begin::Symbol-->
 																<div class="symbol symbol-70px symbol-circle me-5">
-																<img src="../src/media/git.jpeg" width="40px" height="40px" alt="">
+																<img src="./src/media/git.jpeg" width="40px" height="40px" alt="">
 																</div>
 																<!--end::Symbol-->
 																<!--begin::Info-->

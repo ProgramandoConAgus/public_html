@@ -706,6 +706,14 @@ if ($numero_recibido==NULL || $numero_recibido==0){
 											<div class="separator my-2"></div>
 											<!--end::Menu separator-->
 											<!--begin::Menu item-->
+											<?php if($_SESSION['IdTipoUsuario']==2 || $_SESSION['IdTipoUsuario']==3){
+												?>
+											<div class="menu-item px-5">
+												<a href="options.php" class="menu-link px-5" >Opciones</a>
+											</div>
+											<?php
+										}
+										?>
 											<!--end::Menu item-->
 											<!--begin::Menu item-->
 											<div class="menu-item px-5">
