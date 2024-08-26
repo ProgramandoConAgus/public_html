@@ -33,7 +33,7 @@ if ($numero_recibido==NULL || $numero_recibido==0){
 <html lang="en">
 	<!--begin::Head-->
 	<head>
-<base href="../../../" />
+<base href="./" />
 		<title>PCA - SOFTWARE</title>
 		<meta charset="utf-8" />
 		<meta name="description" content="The most advanced Bootstrap 5 Admin Theme with 40 unique prebuilt layouts on Themeforest trusted by 100,000 beginners and professionals. Multi-demo, Dark Mode, RTL support and complete React, Angular, Vue, Asp.Net Core, Rails, Spring, Blazor, Django, Express.js, Node.js, Flask, Symfony & Laravel versions. Grab your copy now and get life-time updates for free." />
@@ -126,7 +126,7 @@ if ($numero_recibido==NULL || $numero_recibido==0){
 																			<!--begin:Menu link-->
 																			<a href="pantalla-cursos-clases.php?numero=<?=$numeroHtml?>" class="menu-link">
 																				<span class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
-																					<img src="../src/media/html.png" width="40px" height="40px" alt="">
+																					<img src="./src/media/html.png" width="40px" height="40px" alt="">
 																				</span>
 																				<span class="d-flex flex-column">
 																					<span class="fs-6 fw-bold text-gray-800">HTML</span>
@@ -145,7 +145,7 @@ if ($numero_recibido==NULL || $numero_recibido==0){
 																			<!--begin:Menu link-->
 																			<a href="pantalla-cursos-clases.php?numero=<?=$numeroCss?>"class="menu-link">
 																				<span class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
-																					<img src="../src/media/css.png" height="40px" width="40px" alt="">
+																					<img src="./src/media/css.png" height="40px" width="40px" alt="">
 																				</span>
 																				<span class="d-flex flex-column">
 																					<span class="fs-6 fw-bold text-gray-800">CSS</span>
@@ -164,7 +164,7 @@ if ($numero_recibido==NULL || $numero_recibido==0){
 																			<!--begin:Menu link-->
 																			<a href="pantalla-cursos-clases.php?numero=<?=$numeroJs?>" class="menu-link">
 																				<span class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
-																					<img src="../src/media/js.png" height="40px" width="40px" alt="">
+																					<img src="./src/media/js.png" height="40px" width="40px" alt="">
 																				</span>
 																				<span class="d-flex flex-column">
 																					<span class="fs-6 fw-bold text-gray-800">Javascript</span>
@@ -183,7 +183,7 @@ if ($numero_recibido==NULL || $numero_recibido==0){
 																			<!--begin:Menu link-->
 																			<a href="pantalla-cursos-clases.php?numero=<?=$numeroTs?>" class="menu-link">
 																				<span class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
-																					<img src="../src/media/Typescript.png" height="40px" width="40px" alt="">
+																					<img src="./src/media/Typescript.png" height="40px" width="40px" alt="">
 																				</span>
 																				<span class="d-flex flex-column">
 																					<span class="fs-6 fw-bold text-gray-800">Typescript</span>
@@ -202,7 +202,7 @@ if ($numero_recibido==NULL || $numero_recibido==0){
 																			<!--begin:Menu link-->
 																			<a href="pantalla-cursos-clases.php?numero=<?=$numeroAngular?>" class="menu-link">
 																				<span class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
-																					<img src="../src/media/Angular.png" height="40px" width="40px" alt="">
+																					<img src="./src/media/Angular.png" height="40px" width="40px" alt="">
 																				</span>
 																				<span class="d-flex flex-column">
 																					<span class="fs-6 fw-bold text-gray-800">Angular</span>
@@ -262,7 +262,7 @@ if ($numero_recibido==NULL || $numero_recibido==0){
 																			<!--begin:Menu link-->
 																			<a href="pantalla-cursos-clases.php?numero=<?=$numeroNet?>" class="menu-link">
 																				<span class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
-																					<img src="../src/media/R.png" height="40px" width="40px" alt="">
+																					<img src="./src/media/R.png" height="40px" width="40px" alt="">
 																				</span>
 																				<span class="d-flex flex-column">
 																					<span class="fs-6 fw-bold text-gray-800">.NET</span>
@@ -281,7 +281,7 @@ if ($numero_recibido==NULL || $numero_recibido==0){
 																			<!--begin:Menu link-->
 																			<a href="pantalla-cursos-clases.php?numero=<?=$numeroSql?>" class="menu-link">
 																				<span class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
-																					<img src="../src/media/sql.png" height="40px" width="40px" alt="">
+																					<img src="./src/media/sql.png" height="40px" width="40px" alt="">
 																				</span>
 																				<span class="d-flex flex-column">
 																					<span class="fs-6 fw-bold text-gray-800">Sql Server</span>
@@ -432,7 +432,7 @@ if ($numero_recibido==NULL || $numero_recibido==0){
 																			<!--begin:Menu link-->
 																			<a href="pantalla-cursos-clases.php?numero=<?=100?>" class="menu-link">
 																				<span class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
-																					<img src="../src/media/editorcodigo.jpg" height="40px" width="40px" alt="">
+																					<img src="./src/media/editorcodigo.jpg" height="40px" width="40px" alt="">
 																				</span>
 																				<span class="d-flex flex-column">
 																					<span class="fs-6 fw-bold text-gray-800">Editor en Linea</span>
@@ -574,7 +574,7 @@ if ($numero_recibido==NULL || $numero_recibido==0){
 												<!--begin:Item-->
 												<div class="col-6">
 													<a href="pantalla-cursos-clases.php?numero=<?=$numeroHtml?>" class="d-flex flex-column flex-center h-100 p-6 bg-hover-light border-end border-bottom">
-													<img alt="Logo" src="../src/media/html.png" class="logo-sticky h-25px" />
+													<img alt="Logo" src="./src/media/html.png" class="logo-sticky h-25px" />
 														<span class="fs-5 fw-semibold text-gray-800 mb-0">HTML</span>
 													</a>
 												</div>
@@ -582,7 +582,7 @@ if ($numero_recibido==NULL || $numero_recibido==0){
 												<!--begin:Item-->
 												<div class="col-6">
 													<a href="pantalla-cursos-clases.php?numero=<?=$numeroCss?>" class="d-flex flex-column flex-center h-100 p-6 bg-hover-light border-bottom">
-													    <img alt="Logo" src="../src/media/css.png" class="logo-sticky h-25px" />
+													    <img alt="Logo" src="./src/media/css.png" class="logo-sticky h-25px" />
 													    <span class="fs-5 fw-semibold text-gray-800 mb-0">CSS</span>
 													</a>
 												</div>
@@ -590,7 +590,7 @@ if ($numero_recibido==NULL || $numero_recibido==0){
 												<!--begin:Item-->
 												<div class="col-6">
 													<a href="pantalla-cursos-clases.php?numero=<?=$numeroJs?>" class="d-flex flex-column flex-center h-100 p-6 bg-hover-light border-end">
-													    <img alt="Logo" src="../src/media/js.png" class="logo-sticky h-25px" />
+													    <img alt="Logo" src="./src/media/js.png" class="logo-sticky h-25px" />
 													    <span class="fs-5 fw-semibold text-gray-800 mb-0">JS</span>
 													</a>
 												</div>
@@ -598,7 +598,7 @@ if ($numero_recibido==NULL || $numero_recibido==0){
 												<!--begin:Item-->
 												<div class="col-6">
 													<a href="pantalla-cursos-clases.php?numero=<?=$numeroTs?>" class="d-flex flex-column flex-center h-100 p-6 bg-hover-light">
-													    <img alt="Logo" src="../src/media/Typescript.png" class="logo-sticky h-25px" />
+													    <img alt="Logo" src="./src/media/Typescript.png" class="logo-sticky h-25px" />
 													    <span class="fs-5 fw-semibold text-gray-800 mb-0">TS</span>
 													</a>
 												</div>
@@ -676,7 +676,7 @@ if ($numero_recibido==NULL || $numero_recibido==0){
 									<div class="d-flex align-items-center me-lg-n2 ms-1 ms-lg-3" id="kt_header_user_menu_toggle">
 										<!--begin::Menu wrapper-->
 										<div class="btn btn-icon btn-active-light-primary btn-custom w-30px h-30px w-md-40px h-md-40px" data-kt-menu-trigger="click" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">
-											<img class="h-30px w-30px rounded" src="../src/media/corona.png" alt="" />
+											<img class="h-30px w-30px rounded" src="./src/media/corona.png" alt="" />
 										</div>
 										<!--begin::User account menu-->
 										<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg menu-state-color fw-semibold py-4 fs-6 w-275px" data-kt-menu="true">
@@ -685,18 +685,16 @@ if ($numero_recibido==NULL || $numero_recibido==0){
 												<div class="menu-content d-flex align-items-center px-3">
 													<!--begin::Avatar-->
 													<div class="symbol symbol-50px me-5">
-														<img alt="Logo" src="../src/media/corona.png" />
+														<img alt="Logo" src="./src/media/corona.png" />
 													</div>
 													<!--end::Avatar-->
 													<!--begin::Username-->
 													<div class="d-flex flex-column">
-														<div class="fw-bold d-flex align-items-center fs-5"> Alumno <br>
-													
-														
-                                                       
+														<div class="d-flex flex-column">
+														<div class="fw-bold d-flex align-items-center fs-5"> <?=$_SESSION['nombre']?> <?=$_SESSION['apellido']?> <br>
 															<span class="badge badge-light-warning fw-bold fs-8 px-2 py-1 ms-2">Acceso Total</span>
-													
 														</div>
+													</div>
 													</div>
 													<!--end::Username-->
 												</div>
@@ -841,7 +839,7 @@ if ($numero_recibido==NULL || $numero_recibido==0){
 								?>
 
                                 <div class="text-center">
-                                    <img src="../src/media/html.png" width="70px" height="70px" alt="">
+                                    <img src="./src/media/html.png" width="70px" height="70px" alt="">
                                     </div>
 									<!--begin::Title-->
 									<h3 class="fs-2x fw-bold text-white text-center mb-10 mb-lg-13 my-3">Módulo HTML</h3>
@@ -863,7 +861,7 @@ if ($numero_recibido==NULL || $numero_recibido==0){
 								?>
 
                                 <div class="text-center">
-                                    <img src="../src/media/css.png" width="70px" height="70px" alt="">
+                                    <img src="./src/media/css.png" width="70px" height="70px" alt="">
                                     </div>
 									<!--begin::Title-->
 									<h3 class="fs-2x fw-bold text-white text-center mb-10 mb-lg-13 my-3">Módulo CSS</h3>
@@ -886,7 +884,7 @@ if ($numero_recibido==NULL || $numero_recibido==0){
 								?>
 
                                 <div class="text-center">
-                                    <img src="../src/media/js.png" width="70px" height="70px" alt="">
+                                    <img src="./src/media/js.png" width="70px" height="70px" alt="">
                                     </div>
 									<!--begin::Title-->
 									<h3 class="fs-2x fw-bold text-white text-center mb-10 mb-lg-13 my-3">Módulo Javascript</h3>
@@ -908,7 +906,7 @@ if ($numero_recibido==NULL || $numero_recibido==0){
 								?>
 
                                 <div class="text-center">
-                                    <img src="../src/media/Typescript.png" width="70px" height="70px" alt="">
+                                    <img src="./src/media/Typescript.png" width="70px" height="70px" alt="">
                                     </div>
 									<!--begin::Title-->
 									<h3 class="fs-2x fw-bold text-white text-center mb-10 mb-lg-13 my-3">Módulo Typescript</h3>
@@ -930,7 +928,7 @@ if ($numero_recibido==NULL || $numero_recibido==0){
 								?>
 
                                 <div class="text-center">
-                                    <img src="../src/media/Angular.png" width="70px" height="70px" alt="">
+                                    <img src="./src/media/Angular.png" width="70px" height="70px" alt="">
                                     </div>
 									<!--begin::Title-->
 									<h3 class="fs-2x fw-bold text-white text-center mb-10 mb-lg-13 my-3">Módulo Angular</h3>
@@ -953,7 +951,7 @@ if ($numero_recibido==NULL || $numero_recibido==0){
 								?>
 
                                 <div class="text-center">
-                                    <img src="../src/media/R.png" width="70px" height="70px" alt="">
+                                    <img src="./src/media/R.png" width="70px" height="70px" alt="">
                                     </div>
 									<!--begin::Title-->
 									<h3 class="fs-2x fw-bold text-white text-center mb-10 mb-lg-13 my-3">Módulo .NET</h3>
@@ -977,7 +975,7 @@ if ($numero_recibido==NULL || $numero_recibido==0){
 								?>
 
                                 <div class="text-center">
-                                    <img src="../src/media/sql.png" width="70px" height="70px" alt="">
+                                    <img src="./src/media/sql.png" width="70px" height="70px" alt="">
                                     </div>
 									<!--begin::Title-->
 									<h3 class="fs-2x fw-bold text-white text-center mb-10 mb-lg-13 my-3">Módulo SQL SERVER</h3>
@@ -1251,7 +1249,7 @@ if ($numero_recibido==NULL || $numero_recibido==0){
 														<!--begin::Body-->
 														<div class="m-0">
 															<!--begin::Title-->
-															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Etiquetas Principales y Estructura - Primera clase</a>
+															<a href="#" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Etiquetas Principales y Estructura - Primera clase</a>
 															<!--end::Title-->
 															<!--begin::Text-->
 															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4">En esta sesión, aprenderás sobre las etiquetas fundamentales de HTML y cómo estructurar correctamente una página web. 
@@ -1269,7 +1267,7 @@ Al finalizar, tendrás una comprensión sólida de cómo organizar el contenido 
 															<!--begin::Content-->
 															<div class="fs-6 fw-bold">
 																<!--begin::Author-->
-																<a href="pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
+																<a href="#" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
 																<!--end::Author-->
 																<!--begin::Date-->
 																<span class="text-muted">Subido 7/03/24</span>
@@ -1305,7 +1303,7 @@ Al finalizar, tendrás una comprensión sólida de cómo organizar el contenido 
 														<!--begin::Body-->
 														<div class="m-0">
 															<!--begin::Title-->
-															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Formularios y Listas - Segunda clase</a>
+															<a href="#" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Formularios y Listas - Segunda clase</a>
 															<!--end::Title-->
 															<!--begin::Text-->
 															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4">En esta sesión, aprenderás a crear formularios interactivos y a organizar contenido usando listas en HTML. 
@@ -1320,7 +1318,7 @@ Al finalizar, serás capaz de construir formularios funcionales y estructurar in
 															<!--begin::Content-->
 															<div class="fs-6 fw-bold">
 																<!--begin::Author-->
-																<a href="pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
+																<a href="#" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
 																<!--end::Author-->
 																<!--begin::Date-->
 																<span class="text-muted">Subido 7/03/24</span>
@@ -1356,7 +1354,7 @@ Al finalizar, serás capaz de construir formularios funcionales y estructurar in
 														<!--begin::Body-->
 														<div class="m-0">
 															<!--begin::Title-->
-															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Formularios en Profundidad - Tercera Clase</a>
+															<a href="#" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Formularios en Profundidad - Tercera Clase</a>
 															<!--end::Title-->
 															<!--begin::Text-->
 															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4">En esta sesión, profundizaremos en la creación y personalización de formularios avanzados en HTML. 
@@ -1378,7 +1376,7 @@ Al finalizar, serás capaz de diseñar formularios complejos y altamente funcion
 															<!--begin::Content-->
 															<div class="fs-6 fw-bold">
 																<!--begin::Author-->
-																<a href="pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
+																<a href="#" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
 																<!--end::Author-->
 																<!--begin::Date-->
 																<span class="text-muted">Subido 7/03/24</span>
@@ -1415,7 +1413,7 @@ Al finalizar, serás capaz de diseñar formularios complejos y altamente funcion
 														<!--begin::Body-->
 														<div class="m-0">
 															<!--begin::Title-->
-															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Tablas - Cuarta Clase</a>
+															<a href="#" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Tablas - Cuarta Clase</a>
 															<!--end::Title-->
 															<!--begin::Text-->
 															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4">En esta sesión, aprenderás a crear y estilizar tablas en HTML para organizar datos de manera clara y efectiva. 
@@ -1433,7 +1431,7 @@ Al finalizar, serás capaz de construir tablas complejas y bien organizadas para
 															<!--begin::Content-->
 															<div class="fs-6 fw-bold">
 																<!--begin::Author-->
-																<a href="pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
+																<a href="#" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
 																<!--end::Author-->
 																<!--begin::Date-->
 																<span class="text-muted">Subido 7/03/24</span>
@@ -1470,7 +1468,7 @@ Al finalizar, serás capaz de construir tablas complejas y bien organizadas para
 														<!--begin::Body-->
 														<div class="m-0">
 															<!--begin::Title-->
-															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Enlazar CSS - Quinta Clase</a>
+															<a href="#" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Enlazar CSS - Quinta Clase</a>
 															<!--end::Title-->
 															<!--begin::Text-->
 															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4">En esta sesión, aprenderás cómo combinar HTML y CSS para crear sitios web atractivos y estilizados. 
@@ -1482,7 +1480,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 															<!--begin::Content-->
 															<div class="fs-6 fw-bold">
 																<!--begin::Author-->
-																<a href="pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
+																<a href="#" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
 																<!--end::Author-->
 																<!--begin::Date-->
 																<span class="text-muted">Subido 7/03/24</span>
@@ -1519,7 +1517,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 														<!--begin::Body-->
 														<div class="m-0">
 															<!--begin::Title-->
-															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Selectores y propiedades Básicas - Primera Clase</a>
+															<a href="#" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Selectores y propiedades Básicas - Primera Clase</a>
 															<!--end::Title-->
 															<!--begin::Text-->
 															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4">En este video, aprenderás los conceptos fundamentales de CSS, enfocados en los selectores y las propiedades básicas para estilizar elementos HTML. Exploraremos los selectores más comunes, como los de tipo, clase, ID, universales y de atributo.</div>
@@ -1527,7 +1525,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 															<!--begin::Content-->
 															<div class="fs-6 fw-bold">
 																<!--begin::Author-->
-																<a href="pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
+																<a href="#" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
 																<!--end::Author-->
 																<!--begin::Date-->
 																<span class="text-muted">Subido 7/03/24</span>
@@ -1564,7 +1562,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 														<!--begin::Body-->
 														<div class="m-0">
 															<!--begin::Title-->
-															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Flexbox y Grid - Segunda Clase</a>
+															<a href="#" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Flexbox y Grid - Segunda Clase</a>
 															<!--end::Title-->
 															<!--begin::Text-->
 															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4">En este video, exploraremos las poderosas herramientas de CSS Flexbox y Grid para crear diseños web responsivos y flexibles. Aprenderás los conceptos esenciales de Flexbox, incluyendo la disposición de elementos en una única dirección y la alineación eficiente, así como los principios de CSS Grid.</div>
@@ -1572,7 +1570,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 															<!--begin::Content-->
 															<div class="fs-6 fw-bold">
 																<!--begin::Author-->
-																<a href="pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
+																<a href="#" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
 																<!--end::Author-->
 																<!--begin::Date-->
 																<span class="text-muted">Subido 7/03/24</span>
@@ -1611,7 +1609,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 														<!--begin::Body-->
 														<div class="m-0">
 															<!--begin::Title-->
-															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Primera clase - Variables y tipos de datos</a>
+															<a href="#" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Primera clase - Variables y tipos de datos</a>
 															<!--end::Title-->
 															<!--begin::Text-->
 															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4">introduce los conceptos fundamentales de las variables y los tipos de datos en programación. Explica cómo se definen y utilizan las variables para almacenar información, y describe los diferentes tipos de datos como enteros, flotantes, cadenas de texto y booleanos.</div>
@@ -1619,7 +1617,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 															<!--begin::Content-->
 															<div class="fs-6 fw-bold">
 																<!--begin::Author-->
-																<a href="pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
+																<a href="#" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
 																<!--end::Author-->
 																<!--begin::Date-->
 																<span class="text-muted">Subido 7/03/24</span>
@@ -1656,7 +1654,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 														<!--begin::Body-->
 														<div class="m-0">
 															<!--begin::Title-->
-															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Segunda clase - Condicionales</a>
+															<a href="#" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Segunda clase - Condicionales</a>
 															<!--end::Title-->
 															<!--begin::Text-->
 															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4">aborda el uso de estructuras condicionales en programación. Explica cómo emplear sentencias como if, else if y else para tomar decisiones basadas en condiciones específicas. Se muestran ejemplos prácticos de cómo ejecutar diferentes bloques de código dependiendo del cumplimiento de ciertas condiciones.</div>
@@ -1664,7 +1662,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 															<!--begin::Content-->
 															<div class="fs-6 fw-bold">
 																<!--begin::Author-->
-																<a href="pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
+																<a href="#" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
 																<!--end::Author-->
 																<!--begin::Date-->
 																<span class="text-muted">Subido 7/03/24</span>
@@ -1701,7 +1699,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 														<!--begin::Body-->
 														<div class="m-0">
 															<!--begin::Title-->
-															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Tercera clase - Switch y case</a>
+															<a href="#" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Tercera clase - Switch y case</a>
 															<!--end::Title-->
 															<!--begin::Text-->
 															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4"> Se explica cómo esta estructura permite seleccionar entre múltiples opciones basadas en el valor de una variable, usando las sentencias case para definir diferentes caminos de ejecución. Se muestran ejemplos prácticos para ilustrar cómo switch y case simplifican la toma de decisiones.</div>
@@ -1709,7 +1707,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 															<!--begin::Content-->
 															<div class="fs-6 fw-bold">
 																<!--begin::Author-->
-																<a href="pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
+																<a href="#" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
 																<!--end::Author-->
 																<!--begin::Date-->
 																<span class="text-muted">Subido 7/03/24</span>
@@ -1747,7 +1745,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 														<!--begin::Body-->
 														<div class="m-0">
 															<!--begin::Title-->
-															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Cuarta clase - Funciones</a>
+															<a href="#" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Cuarta clase - Funciones</a>
 															<!--end::Title-->
 															<!--begin::Text-->
 															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4"> Cómo definir y utilizar funciones para agrupar bloques de código que realizan tareas específicas, permitiendo su reutilización y mejorando la organización del programa.</div>
@@ -1755,7 +1753,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 															<!--begin::Content-->
 															<div class="fs-6 fw-bold">
 																<!--begin::Author-->
-																<a href="pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
+																<a href="#" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
 																<!--end::Author-->
 																<!--begin::Date-->
 																<span class="text-muted">Subido 7/03/24</span>
@@ -1792,7 +1790,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 														<!--begin::Body-->
 														<div class="m-0">
 															<!--begin::Title-->
-															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Quinta clase - Iteraciones y funciones de arrays</a>
+															<a href="#" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Quinta clase - Iteraciones y funciones de arrays</a>
 															<!--end::Title-->
 															<!--begin::Text-->
 															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4"> explora cómo trabajar con bucles e iteraciones en programación, enfocándose en la manipulación de arrays. Explica el uso de estructuras como "For".</div>
@@ -1800,7 +1798,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 															<!--begin::Content-->
 															<div class="fs-6 fw-bold">
 																<!--begin::Author-->
-																<a href="pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
+																<a href="#" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
 																<!--end::Author-->
 																<!--begin::Date-->
 																<span class="text-muted">Subido 7/03/24</span>
@@ -1838,7 +1836,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 														<!--begin::Body-->
 														<div class="m-0">
 															<!--begin::Title-->
-															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Sexta clase - Programación orientada a objetos (Clases)</a>
+															<a href="#" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Sexta clase - Programación orientada a objetos (Clases)</a>
 															<!--end::Title-->
 															<!--begin::Text-->
 															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4"> Introduce los conceptos fundamentales de la programación orientada a objetos (POO), centrado en las clases.</div>
@@ -1846,7 +1844,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 															<!--begin::Content-->
 															<div class="fs-6 fw-bold">
 																<!--begin::Author-->
-																<a href="pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
+																<a href="#" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
 																<!--end::Author-->
 																<!--begin::Date-->
 																<span class="text-muted">Subido 7/03/24</span>
@@ -1877,14 +1875,14 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 													<!--begin::Feature post-->
 													<div class="card-xl-stretch me-md-6">
 														<!--begin::Image-->
-														<a class="d-block bgi-no-repeat bgi-size-cover bgi-position-center card-rounded position-relative min-h-175px mb-5" style="background-image:url('./src/media/js.png')" data-fslightbox="lightbox-video-tutorials" href="https://drive.google.com/file/d/1kbZ430CTYjt8-v_CC0bzhQSz3JjTsfc-/view?usp=drive_link">
+														<a class="d-block bgi-no-repeat bgi-size-cover bgi-position-center card-rounded position-relative min-h-175px mb-5" style="background-image:url('./src/media/js.png')" data-fslightbox="lightbox-video-tutorials" href="https://youtu.be/Dm9CiNSmjM4">
 															<img src="assets/media/svg/misc/video-play.svg" class="position-absolute top-50 start-50 translate-middle" alt="" />
 														</a>
 														<!--end::Image-->
 														<!--begin::Body-->
 														<div class="m-0">
 															<!--begin::Title-->
-															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Séptima y ultima clase - Manipulación del DOM</a>
+															<a href="#" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Séptima y ultima clase - Manipulación del DOM</a>
 															<!--end::Title-->
 															<!--begin::Text-->
 															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4"> Explora cómo JavaScript interactúa con el DOM (Document Object Model) en páginas web. Explica técnicas para seleccionar elementos HTML.</div>
@@ -1892,7 +1890,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 															<!--begin::Content-->
 															<div class="fs-6 fw-bold">
 																<!--begin::Author-->
-																<a href="pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
+																<a href="#" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
 																<!--end::Author-->
 																<!--begin::Date-->
 																<span class="text-muted">Subido 7/03/24</span>
@@ -1928,7 +1926,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 														<!--begin::Body-->
 														<div class="m-0">
 															<!--begin::Title-->
-															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Primera clase - Tipado Fuerte</a>
+															<a href="#" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Primera clase - Tipado Fuerte</a>
 															<!--end::Title-->
 															<!--begin::Text-->
 															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4"> Introduce los conceptos básicos del tipado fuerte en TypeScript, un superconjunto de JavaScript que añade tipos estáticos.</div>
@@ -1936,7 +1934,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 															<!--begin::Content-->
 															<div class="fs-6 fw-bold">
 																<!--begin::Author-->
-																<a href="pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
+																<a href="#" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
 																<!--end::Author-->
 																<!--begin::Date-->
 																<span class="text-muted">Subido 7/03/24</span>
@@ -1972,7 +1970,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 														<!--begin::Body-->
 														<div class="m-0">
 															<!--begin::Title-->
-															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Segunda clase - Imports, módulos e interfaces</a>
+															<a href="#" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Segunda clase - Imports, módulos e interfaces</a>
 															<!--end::Title-->
 															<!--begin::Text-->
 															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4"> Explica cómo utilizar imports y módulos para dividir el código en partes reutilizables y manejables, facilitando el mantenimiento y la colaboración en proyectos. También introduce las interfaces, que definen contratos o tipos estructurales para objetos, garantizando que las clases que las implementan cumplan con ciertos requisitos. </div>
@@ -1980,7 +1978,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 															<!--begin::Content-->
 															<div class="fs-6 fw-bold">
 																<!--begin::Author-->
-																<a href="pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
+																<a href="#" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
 																<!--end::Author-->
 																<!--begin::Date-->
 																<span class="text-muted">Subido 7/03/24</span>
@@ -2017,7 +2015,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 														<!--begin::Body-->
 														<div class="m-0">
 															<!--begin::Title-->
-															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Primera clase - Introducción a Angular y Arquitectura de Aplicaciones</a>
+															<a href="#" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Primera clase - Introducción a Angular y Arquitectura de Aplicaciones</a>
 															<!--end::Title-->
 															<!--begin::Text-->
 															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4">Aprenderás sobre la estructura de un proyecto Angular, la importancia de los módulos y el enrutamiento, así como el papel de los servicios y las peticiones en la comunicación con una API. </div>
@@ -2025,7 +2023,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 															<!--begin::Content-->
 															<div class="fs-6 fw-bold">
 																<!--begin::Author-->
-																<a href="pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
+																<a href="#" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
 																<!--end::Author-->
 																<!--begin::Date-->
 																<span class="text-muted">Subido 7/03/24</span>
@@ -2062,7 +2060,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 														<!--begin::Body-->
 														<div class="m-0">
 															<!--begin::Title-->
-															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Segunda clase - Complemento de Arquitectura y creación de Proyecto</a>
+															<a href="#" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Segunda clase - Complemento de Arquitectura y creación de Proyecto</a>
 															<!--end::Title-->
 															<!--begin::Text-->
 															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4">En este video, aprenderás en profundidad cómo funciona la estructura de una aplicación en Angular y cómo crear tu primer proyecto desde cero.</div>
@@ -2070,7 +2068,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 															<!--begin::Content-->
 															<div class="fs-6 fw-bold">
 																<!--begin::Author-->
-																<a href="pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
+																<a href="#" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
 																<!--end::Author-->
 																<!--begin::Date-->
 																<span class="text-muted">Subido 7/03/24</span>
@@ -2107,7 +2105,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 														<!--begin::Body-->
 														<div class="m-0">
 															<!--begin::Title-->
-															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Tercera Clase - Componentes y Rutas</a>
+															<a href="#" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Tercera Clase - Componentes y Rutas</a>
 															<!--end::Title-->
 															<!--begin::Text-->
 															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4">Aprenderás a manejar componentes y rutas en Angular. Exploraremos cómo crear y organizar componentes, y cómo configurar el enrutamiento para navegar entre diferentes vistas de tu aplicación.</div>
@@ -2115,7 +2113,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 															<!--begin::Content-->
 															<div class="fs-6 fw-bold">
 																<!--begin::Author-->
-																<a href="pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
+																<a href="#" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
 																<!--end::Author-->
 																<!--begin::Date-->
 																<span class="text-muted">Subido 7/03/24</span>
@@ -2150,7 +2148,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 														<!--begin::Body-->
 														<div class="m-0">
 															<!--begin::Title-->
-															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Cuarta clase - Servicios e Interpolación</a>
+															<a href="#" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Cuarta clase - Servicios e Interpolación</a>
 															<!--end::Title-->
 															<!--begin::Text-->
 															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4">Aprenderás sobre la creación y utilización de servicios en Angular para manejar datos y lógica de negocio, así como la interpolación para enlazar datos entre el componente y la vista.</div>
@@ -2158,7 +2156,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 															<!--begin::Content-->
 															<div class="fs-6 fw-bold">
 																<!--begin::Author-->
-																<a href="pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
+																<a href="#" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
 																<!--end::Author-->
 																<!--begin::Date-->
 																<span class="text-muted">Subido 7/03/24</span>
@@ -2194,7 +2192,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 														<!--begin::Body-->
 														<div class="m-0">
 															<!--begin::Title-->
-															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Quinta clase - Programación Reactiva | Observables y observadores</a>
+															<a href="#" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Quinta clase - Programación Reactiva | Observables y observadores</a>
 															<!--end::Title-->
 															<!--begin::Text-->
 															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4">Aprenderás los fundamentos de la programación reactiva en Angular, centrándonos en el uso de observables y observadores. Exploraremos cómo crear y gestionar flujos de datos asíncronos utilizando RxJS, y cómo integrar estos conceptos en tus aplicaciones para mejorar la eficiencia y la capacidad de respuesta.</div>
@@ -2202,7 +2200,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 															<!--begin::Content-->
 															<div class="fs-6 fw-bold">
 																<!--begin::Author-->
-																<a href="pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
+																<a href="#" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
 																<!--end::Author-->
 																<!--begin::Date-->
 																<span class="text-muted">Subido 7/03/24</span>
@@ -2239,7 +2237,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 														<!--begin::Body-->
 														<div class="m-0">
 															<!--begin::Title-->
-															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Sexta Clase - Peticiones HTTP en Angular</a>
+															<a href="#" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Sexta Clase - Peticiones HTTP en Angular</a>
 															<!--end::Title-->
 															<!--begin::Text-->
 															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4">Aprenderás cómo realizar peticiones HTTP en Angular para interactuar con APIs y servicios externos. </div>
@@ -2247,7 +2245,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 															<!--begin::Content-->
 															<div class="fs-6 fw-bold">
 																<!--begin::Author-->
-																<a href="pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
+																<a href="#" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
 																<!--end::Author-->
 																<!--begin::Date-->
 																<span class="text-muted">Subido 7/03/24</span>
@@ -2287,7 +2285,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 														<!--begin::Body-->
 														<div class="m-0">
 															<!--begin::Title-->
-															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Primera Clase   Arquitectura de una base de datos</a>
+															<a href="#" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Primera Clase   Arquitectura de una base de datos</a>
 															<!--end::Title-->
 															<!--begin::Text-->
 															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4">Exploraremos los fundamentos de la arquitectura de una base de datos. Discutiremos los modelos de datos relacionales y no relacionales, la estructura de tablas y colecciones, y cómo diseñar esquemas eficientes para almacenar y manipular datos. </div>
@@ -2295,7 +2293,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 															<!--begin::Content-->
 															<div class="fs-6 fw-bold">
 																<!--begin::Author-->
-																<a href="pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
+																<a href="#" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
 																<!--end::Author-->
 																<!--begin::Date-->
 																<span class="text-muted">Subido 7/03/24</span>
@@ -2333,7 +2331,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 														<!--begin::Body-->
 														<div class="m-0">
 															<!--begin::Title-->
-															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Segunda Clase - Instalación, creación de tablas, consultas y condiciones</a>
+															<a href="#" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Segunda Clase - Instalación, creación de tablas, consultas y condiciones</a>
 															<!--end::Title-->
 															<!--begin::Text-->
 															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4">Aprenderás cómo instalar SQL Server y comenzar a trabajar con bases de datos. Exploraremos la creación de tablas, la ejecución de consultas básicas y el uso de condiciones para filtrar datos.</div>
@@ -2341,7 +2339,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 															<!--begin::Content-->
 															<div class="fs-6 fw-bold">
 																<!--begin::Author-->
-																<a href="pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
+																<a href="#" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
 																<!--end::Author-->
 																<!--begin::Date-->
 																<span class="text-muted">Subido 7/03/24</span>
@@ -2378,7 +2376,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 														<!--begin::Body-->
 														<div class="m-0">
 															<!--begin::Title-->
-															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Tercera Clase - Condiciones mas usadas</a>
+															<a href="#" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Tercera Clase - Condiciones mas usadas</a>
 															<!--end::Title-->
 															<!--begin::Text-->
 															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4">Aprenderás sobre las condiciones más utilizadas en SQL Server para filtrar y manipular datos. Exploraremos condiciones como WHERE, AND, OR.</div>
@@ -2386,7 +2384,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 															<!--begin::Content-->
 															<div class="fs-6 fw-bold">
 																<!--begin::Author-->
-																<a href="pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
+																<a href="#" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
 																<!--end::Author-->
 																<!--begin::Date-->
 																<span class="text-muted">Subido 7/03/24</span>
@@ -2424,7 +2422,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 														<!--begin::Body-->
 														<div class="m-0">
 															<!--begin::Title-->
-															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Cuarta clase - Update, Drop y Foreign Key</a>
+															<a href="#" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Cuarta clase - Update, Drop y Foreign Key</a>
 															<!--end::Title-->
 															<!--begin::Text-->
 															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4">Aprenderás a utilizar las sentencias UPDATE y DROP en SQL Server para modificar y eliminar datos y estructuras de la base de datos.</div>
@@ -2432,7 +2430,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 															<!--begin::Content-->
 															<div class="fs-6 fw-bold">
 																<!--begin::Author-->
-																<a href="pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
+																<a href="#" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
 																<!--end::Author-->
 																<!--begin::Date-->
 																<span class="text-muted">Subido 7/03/24</span>
@@ -2469,7 +2467,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 														<!--begin::Body-->
 														<div class="m-0">
 															<!--begin::Title-->
-															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Quinta Clase - Inner Join y Left Join</a>
+															<a href="#" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Quinta Clase - Inner Join y Left Join</a>
 															<!--end::Title-->
 															<!--begin::Text-->
 															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4">Aprenderás a utilizar los operadores INNER JOIN y LEFT JOIN en SQL Server para combinar datos de múltiples tablas.</div>
@@ -2477,7 +2475,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 															<!--begin::Content-->
 															<div class="fs-6 fw-bold">
 																<!--begin::Author-->
-																<a href="pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
+																<a href="#" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
 																<!--end::Author-->
 																<!--begin::Date-->
 																<span class="text-muted">Subido 7/03/24</span>
@@ -2514,7 +2512,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 														<!--begin::Body-->
 														<div class="m-0">
 															<!--begin::Title-->
-															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Sexta Clase - Stored Procedure</a>
+															<a href="#" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Sexta Clase - Stored Procedure</a>
 															<!--end::Title-->
 															<!--begin::Text-->
 															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4">Aprenderás sobre los procesos almacenados, que son, como se crean, para que sirven y mas</div>
@@ -2522,7 +2520,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 															<!--begin::Content-->
 															<div class="fs-6 fw-bold">
 																<!--begin::Author-->
-																<a href="pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
+																<a href="#" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
 																<!--end::Author-->
 																<!--begin::Date-->
 																<span class="text-muted">Subido 7/03/24</span>
@@ -2560,7 +2558,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 														<!--begin::Body-->
 														<div class="m-0">
 															<!--begin::Title-->
-															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Primera clase Git & GitFlow</a>
+															<a href="#" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Primera clase Git & GitFlow</a>
 															<!--end::Title-->
 															<!--begin::Text-->
 															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4">Aprenderás sobre la instalación, estructura y comandos básicos de Git y GitFlow</div>
@@ -2568,7 +2566,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 															<!--begin::Content-->
 															<div class="fs-6 fw-bold">
 																<!--begin::Author-->
-																<a href="pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
+																<a href="#" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
 																<!--end::Author-->
 																<!--begin::Date-->
 																<span class="text-muted">Subido 7/03/24</span>
@@ -2605,7 +2603,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 														<!--begin::Body-->
 														<div class="m-0">
 															<!--begin::Title-->
-															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Segunda Clase Git & GitFlow</a>
+															<a href="#" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Segunda Clase Git & GitFlow</a>
 															<!--end::Title-->
 															<!--begin::Text-->
 															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4">Aprenderás como crear repositorios y subir proyectos para poder guardar y compartir codigos en github</div>
@@ -2613,7 +2611,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 															<!--begin::Content-->
 															<div class="fs-6 fw-bold">
 																<!--begin::Author-->
-																<a href="pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
+																<a href="#" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
 																<!--end::Author-->
 																<!--begin::Date-->
 																<span class="text-muted">Subido 7/03/24</span>
@@ -2649,7 +2647,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 														<!--begin::Body-->
 														<div class="m-0">
 															<!--begin::Title-->
-															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Introducción a los Diagramas de Flujo</a>
+															<a href="#" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Introducción a los Diagramas de Flujo</a>
 															<!--end::Title-->
 															<!--begin::Text-->
 															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4">Aprenderás que son los diagramas de flujo, para que nos sirven, como funcionan y sus diversas partes</div>
@@ -2657,7 +2655,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 															<!--begin::Content-->
 															<div class="fs-6 fw-bold">
 																<!--begin::Author-->
-																<a href="pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
+																<a href="#" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
 																<!--end::Author-->
 																<!--begin::Date-->
 																<span class="text-muted">Subido 17/07/24</span>
@@ -2693,7 +2691,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 														<!--begin::Body-->
 														<div class="m-0">
 															<!--begin::Title-->
-															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">APIs y Endpoints</a>
+															<a href="#" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">APIs y Endpoints</a>
 															<!--end::Title-->
 															<!--begin::Text-->
 															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4">Aprenderás que significa API, que es una API, las partes que tiene y sobre los Endpoints</div>
@@ -2701,7 +2699,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 															<!--begin::Content-->
 															<div class="fs-6 fw-bold">
 																<!--begin::Author-->
-																<a href="pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
+																<a href="#" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
 																<!--end::Author-->
 																<!--begin::Date-->
 																<span class="text-muted">Subido 17/07/24</span>
@@ -2736,7 +2734,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 														<!--begin::Body-->
 														<div class="m-0">
 															<!--begin::Title-->
-															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Partes de una aplicación - Explicación Conceptual</a>
+															<a href="#" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Partes de una aplicación - Explicación Conceptual</a>
 															<!--end::Title-->
 															<!--begin::Text-->
 															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4">Aprenderás las partes principales de una aplicación: el front-end, el back-end y la base de datos, y cómo interactúan para crear una aplicación funcional.</div>
@@ -2744,7 +2742,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 															<!--begin::Content-->
 															<div class="fs-6 fw-bold">
 																<!--begin::Author-->
-																<a href="pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
+																<a href="#" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
 																<!--end::Author-->
 																<!--begin::Date-->
 																<span class="text-muted">Subido 17/07/24</span>
@@ -2777,7 +2775,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 														<!--begin::Body-->
 														<div class="m-0">
 															<!--begin::Title-->
-															<a href="pages/user-profile/overview.html" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Servidores Primera clase Códigos de Respuesta</a>
+															<a href="#" class="fs-4 text-gray-900 fw-bold text-hover-primary text-gray-900 lh-base">Servidores Primera clase Códigos de Respuesta</a>
 															<!--end::Title-->
 															<!--begin::Text-->
 															<div class="fw-semibold fs-5 text-gray-600 text-gray-900 my-4">Aprenderás sobre los codigos de respuestas para indicar el estado de peticiones realizadas por el usuario</div>
@@ -2785,7 +2783,7 @@ La etiqueta 'link' para vincular hojas de estilo externas.</div>
 															<!--begin::Content-->
 															<div class="fs-6 fw-bold">
 																<!--begin::Author-->
-																<a href="pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
+																<a href="#" class="text-gray-700 text-hover-primary">Agustin Aponte Angotti</a>
 																<!--end::Author-->
 																<!--begin::Date-->
 																<span class="text-muted">Subido 17/07/24</span>
